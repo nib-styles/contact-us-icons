@@ -1,0 +1,61 @@
+$icon-image-path: 'nib-styles-contact-us-icons';
+
+@mixin icon-contact {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@mixin icon-contact-large {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@mixin icon-contact-small {
+  @include icon-contact;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+
+.icon-contact-phone {
+  @include icon-contact;
+  background: component-url($icon-image-path, 'images/phone.png');
+}
+
+.icon-contact-mail {
+  @include icon-contact;
+  background: component-url($icon-image-path, 'images/mail.png');
+}
+
+.icon-contact-fax {
+  @include icon-contact;
+  background: component-url($icon-image-path, 'images/fax.png');
+}
+
+.icon-contact-link {
+  @include icon-contact;
+  background: component-url($icon-image-path, 'images/link.png');
+}
+
+.icon-contact-pin {
+  @include icon-contact-small;
+  background: component-url($icon-image-path, 'images/pin.png');
+}
+
+.icon-contact-twitter {
+  @include icon-contact-large;
+  background: component-url($icon-image-path, 'images/twitter.png');
+}
+
+.icon-contact-facebook {
+  @include icon-contact-large;
+  background: component-url($icon-image-path, 'images/facebook.png');
+}
