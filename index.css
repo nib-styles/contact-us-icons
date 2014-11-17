@@ -1,0 +1,58 @@
+.icon-contact-phone {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/phone.png'); }
+
+.icon-contact-mail {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/mail.png'); }
+
+.icon-contact-fax {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/fax.png'); }
+
+.icon-contact-link {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/link.png'); }
+
+.icon-contact-pin {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: component-url('nib-styles-contact-us-icons', 'images/pin.png'); }
+
+.icon-contact-twitter {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/twitter.png'); }
+
+.icon-contact-facebook {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: component-url('nib-styles-contact-us-icons', 'images/facebook.png'); }
