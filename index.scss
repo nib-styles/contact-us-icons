@@ -27,35 +27,35 @@ $icon-image-path: 'nib-styles-contact-us-icons';
 
 .icon-contact-phone {
   @include icon-contact;
-  background: component-url($icon-image-path, 'images/phone.png');
+  background: url('images/phone.png');
 }
 
 .icon-contact-mail {
   @include icon-contact;
-  background: component-url($icon-image-path, 'images/mail.png');
+  background: url('images/mail.png');
 }
 
 .icon-contact-fax {
   @include icon-contact;
-  background: component-url($icon-image-path, 'images/fax.png');
+  background: url('images/fax.png');
 }
 
 .icon-contact-link {
   @include icon-contact;
-  background: component-url($icon-image-path, 'images/link.png');
+  background: url('images/link.png');
 }
 
 .icon-contact-pin {
   @include icon-contact-small;
-  background: component-url($icon-image-path, 'images/pin.png');
+  background: url('images/pin.png');
 }
 
 .icon-contact-twitter {
   @include icon-contact-large;
-  background: component-url($icon-image-path, 'images/twitter.png');
+  background: url('images/twitter.png');
 }
 
 .icon-contact-facebook {
   @include icon-contact-large;
-  background: component-url($icon-image-path, 'images/facebook.png');
+  background: url('images/facebook.png');
 }
