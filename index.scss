@@ -45,6 +45,11 @@ $icon-image-path: 'nib-styles-contact-us-icons';
   background: url('images/link.png');
 }
 
+.icon-contact-chat {
+  @include icon-contact;
+  background: url('images/chat.png');
+}
+
 .icon-contact-pin {
   @include icon-contact-small;
   background: url('images/pin.png');

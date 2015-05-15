@@ -21,6 +21,14 @@
   display: inline-block;
   vertical-align: middle;
   background: url('images/fax.png'); }
+  
+.icon-contact-chat {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('images/chat.png'); }
 
 .icon-contact-link {
   width: 30px;
