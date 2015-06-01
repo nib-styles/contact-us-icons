@@ -1,0 +1,10 @@
+{
+  "name": "@nib-styles/contact-us-icons",
+  "version": "0.0.5",
+  "main": "index.scss",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/contact-us-icons.git"
+  }
+}
